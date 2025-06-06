@@ -38,14 +38,13 @@ def get_binance_data(symbol):
 while True:
     os.system('cls' if os.name == 'nt' else 'clear')
     print("=" * 60)
-    print(" DASHBOARD BTC, ETH, USDT, SOL (Indodax + Binance)")
+    print(" DASHBOARD BTC, ETH, SOL (Indodax + Binance)")
     print("=" * 60)
 
     # Indodax
     for asset, pair in {
         'BTC': 'btcidr',
         'ETH': 'ethidr',
-        'USDT': 'usdtidr',
         'SOL': 'solidr'
     }.items():
         data = get_indodax_data(pair)
