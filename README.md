@@ -11,8 +11,8 @@ Kumpulan alat bantu Python untuk menghitung keuntungan bersih dari transaksi kri
 * calculator-BTC.py –> Kalkulator GUI transaksi BTC
 * calculator-ETH.py –> Kalkulator GUI transaksi ETH
 * calculator-SOL.py –> Kalkulator GUI transaksi SOL
-* multi-transaction.py –> Kalkulator transaksi bertahap (multi-entry)
 * dashboard.py –> CLI dashboard harga real-time dari Indodax & Binance
+* multi-transaction.py –> Kalkulator transaksi bertahap (multi-entry)
 
 ## Cara Menjalankan Skrip
 ```bash
